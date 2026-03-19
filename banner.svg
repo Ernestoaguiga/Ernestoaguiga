@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#121212"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C853;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#00C853;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#00C853;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00C853;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="gridFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C853;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#00C853;stop-opacity:0.06"/>
+      <stop offset="80%" style="stop-color:#00C853;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#00C853;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="60%" style="stop-color:#e8e8e8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="bannerClip">
+      <rect width="1200" height="300" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="1" clip-path="url(#bannerClip)">
+    <!-- Vertical grid lines -->
+    <line x1="100" y1="0" x2="100" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="300" y1="0" x2="300" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="500" y1="0" x2="500" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="700" y1="0" x2="700" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="900" y1="0" x2="900" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="1100" y1="0" x2="1100" y2="300" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <!-- Horizontal grid lines -->
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#00C853" stroke-width="0.3" opacity="0.07"/>
+  </g>
+
+  <!-- Right side data visualization decoration -->
+  <!-- Bar chart silhouette -->
+  <rect x="820" y="180" width="28" height="80" fill="#00C853" opacity="0.12" rx="2"/>
+  <rect x="858" y="140" width="28" height="120" fill="#00C853" opacity="0.18" rx="2"/>
+  <rect x="896" y="110" width="28" height="150" fill="#00C853" opacity="0.14" rx="2"/>
+  <rect x="934" y="155" width="28" height="105" fill="#00C853" opacity="0.10" rx="2"/>
+  <rect x="972" y="90" width="28" height="170" fill="#00C853" opacity="0.20" rx="2"/>
+  <rect x="1010" y="125" width="28" height="135" fill="#00C853" opacity="0.12" rx="2"/>
+  <rect x="1048" y="75" width="28" height="185" fill="#00C853" opacity="0.16" rx="2"/>
+  <rect x="1086" y="105" width="28" height="155" fill="#00C853" opacity="0.10" rx="2"/>
+  <rect x="1124" y="145" width="28" height="115" fill="#00C853" opacity="0.14" rx="2"/>
+  <rect x="1162" y="85" width="28" height="175" fill="#00C853" opacity="0.18" rx="2"/>
+
+  <!-- Trend line over bars -->
+  <polyline points="834,175 872,138 910,108 948,152 986,88 1024,122 1062,72 1100,102 1138,142 1176,82"
+    fill="none" stroke="#00C853" stroke-width="1.8" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Glow dots on trend line -->
+  <circle cx="986" cy="88" r="4" fill="#00C853" opacity="0.7" filter="url(#glow)"/>
+  <circle cx="1062" cy="72" r="4" fill="#00C853" opacity="0.7" filter="url(#glow)"/>
+
+  <!-- Left vertical accent bar -->
+  <rect x="60" y="40" width="3" height="220" fill="#00C853" opacity="0.8" filter="url(#glow)"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#accentLine)"/>
+  <!-- Bottom accent line -->
+  <rect x="0" y="298" width="1200" height="2" fill="url(#accentLine)"/>
+
+  <!-- Corner brackets top-left -->
+  <path d="M20,20 L20,8 L32,8" fill="none" stroke="#00C853" stroke-width="1.5" opacity="0.9"/>
+  <!-- Corner brackets bottom-left -->
+  <path d="M20,280 L20,292 L32,292" fill="none" stroke="#00C853" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- DATA tag -->
+  <rect x="80" y="38" width="62" height="20" fill="#00C853" opacity="0.15" rx="3"/>
+  <rect x="80" y="38" width="62" height="20" fill="none" stroke="#00C853" stroke-width="0.8" rx="3" opacity="0.5"/>
+  <text x="111" y="52" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#00C853" opacity="0.9" font-weight="bold" letter-spacing="2">ANALYST</text>
+
+  <!-- Main Name -->
+  <text x="80" y="128"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-weight="700"
+    fill="url(#nameGrad)"
+    letter-spacing="-1"
+    filter="url(#softGlow)"
+    opacity="0.95">Hugo Ernesto</text>
+
+  <text x="80" y="182"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-weight="700"
+    fill="url(#nameGrad)"
+    letter-spacing="-1"
+    opacity="0.95">Aguilar Gallardo</text>
+
+  <!-- Role badge -->
+  <rect x="80" y="200" width="310" height="28" fill="#00C853" opacity="0.12" rx="4"/>
+  <rect x="80" y="200" width="310" height="28" fill="none" stroke="#00C853" stroke-width="0.8" rx="4" opacity="0.6"/>
+  <text x="235" y="219" text-anchor="middle"
+    font-family="'Courier New', monospace"
+    font-size="11"
+    fill="#00C853"
+    letter-spacing="3"
+    font-weight="bold">DATA ANALYST · MARKETING &amp; BI</text>
+
+  <!-- Tagline -->
+  <text x="80" y="256"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="15"
+    fill="#888888"
+    font-style="italic"
+    letter-spacing="0.5">Data that speaks.</text>
+  <text x="226" y="256"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="15"
+    fill="#00C853"
+    font-style="italic"
+    font-weight="bold"
+    filter="url(#glow)"
+    letter-spacing="0.5"> Visuals that sell.</text>
+  <text x="408" y="256"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="15"
+    fill="#888888"
+    font-style="italic"
+    letter-spacing="0.5"> Business that grows.</text>
+
+  <!-- Contact row -->
+  <text x="80" y="284"
+    font-family="'Courier New', monospace"
+    font-size="10"
+    fill="#555555"
+    letter-spacing="1">📍 Ciudad de México</text>
+  <text x="240" y="284"
+    font-family="'Courier New', monospace"
+    font-size="10"
+    fill="#555555"
+    letter-spacing="1">✉ ernestoaguiga@gmail.com</text>
+  <text x="470" y="284"
+    font-family="'Courier New', monospace"
+    font-size="10"
+    fill="#555555"
+    letter-spacing="1">💼 in/ernesto-aguilar-gallardo-2359263a5</text>
+
+</svg>
