@@ -5,6 +5,13 @@
 </div>
 
 ---
+<div align="center">
+
+[![DataCamp](https://img.shields.io/badge/DataCamp-Associate_Data_Analyst-03EF62?style=for-the-badge&logo=datacamp&logoColor=black)](https://www.datacamp.com/certificate/DAA0012172108908)
+[![Harvard CS50](https://img.shields.io/badge/Harvard_CS50-SQL_In_Progress-A51C30?style=for-the-badge&logo=harvard&logoColor=white)](https://cs50.harvard.edu/sql)
+
+</div>
+---
 
 <div align="center">
 
