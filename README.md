@@ -74,11 +74,11 @@ analyst = {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TU_USERNAME&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=121212&title_color=00C853&icon_color=00C853&text_color=cccccc)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ernestoaguiga&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=121212&title_color=00C853&icon_color=00C853&text_color=cccccc)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USERNAME&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=121212&title_color=00C853&text_color=cccccc)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ernestoaguiga&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=121212&title_color=00C853&text_color=cccccc)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=TU_USERNAME&theme=chartreuse-dark&hide_border=true&background=121212&ring=00C853&fire=00C853&currStreakLabel=00C853)
+![GitHub Streak](https://streak-stats.demolab.com?user=Ernestoaguiga&theme=chartreuse-dark&hide_border=true&background=121212&ring=00C853&fire=00C853&currStreakLabel=00C853)
 
 </div>
 
