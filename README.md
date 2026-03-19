@@ -93,6 +93,15 @@ analyst = {
 
 ---
 
+## 🏆 Certifications
+
+| Certification | Institution | Date | ID |
+|---|---|---|---|
+| Associate Data Analyst | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat&logo=datacamp&logoColor=black) | Feb 2026 | DAA0012172108908 |
+| Introduction to Databases with SQL *(in progress)* | ![Harvard](https://img.shields.io/badge/Harvard_CS50-A51C30?style=flat&logo=harvard&logoColor=white) | 2026 | — |
+
+---
+
 ## 📬 Let's Connect · Conectemos
 
 <div align="center">
