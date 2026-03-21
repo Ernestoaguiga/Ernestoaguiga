@@ -113,7 +113,7 @@ analyst = {
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hugo%20Ernesto%20Aguilar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ernesto-aguilar-gallardo-2359263a5)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hugo%20Ernesto%20Aguilar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hugo-ernesto-aguilar-gallardo-2359263a5)
 [![Email](https://img.shields.io/badge/Email-ernestoaguiga%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ernestoaguiga@gmail.com)
 
 </div>
