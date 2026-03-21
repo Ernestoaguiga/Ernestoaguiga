@@ -73,7 +73,26 @@ analyst = {
 | 📊 Visualization | Power BI · DAX | Interactive BI Dashboard |
 | 📝 Documentation | Markdown · Notion | README · Business case write-up |
 
-**🔗 [View Repository →](#)**https://github.com/Ernestoaguiga/Retail_Performance_Analysis
+**🔗 [View Repository →](https://github.com/Ernestoaguiga/Retail_Performance_Analysis)**
+
+---
+
+---
+
+### 🎌 PROJECT #2 · Shibuya Art — E-Commerce SQL Analytics
+
+> **EN** · Full SQL analytics project for a Japan→Mexico e-commerce brand. 3-phase ETL pipeline, 18 progressive business queries and an analytical layer with reusable views for marketing performance and customer segmentation.
+>
+> **ES** · Proyecto SQL completo para una marca de e-commerce Japón→México. Pipeline ETL de 3 fases, 18 queries progresivas y capa analítica con vistas reutilizables para marketing y segmentación de clientes.
+
+| Layer | Tools | Deliverable |
+|-------|-------|-------------|
+| 🏗️ Schema Design | PostgreSQL · DDL | 5 normalized tables + indexes |
+| 🔧 ETL Pipeline | SQL · DML | 200+ records across 5 tables |
+| 🔍 Business Queries | SQL · CTEs · Window Functions | 18 queries — Genin to Kage |
+| 📊 Analytical Layer | SQL Views | v_order_details · v_campaign_kpis · v_customer_360 |
+
+**🔗 [View Repository →](https://github.com/Ernestoaguiga/Shibuya_Art_SQL_Analytics)**
 
 ---
 
