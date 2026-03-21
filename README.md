@@ -73,7 +73,7 @@ analyst = {
 | 📊 Visualization | Power BI · DAX | Interactive BI Dashboard |
 | 📝 Documentation | Markdown · Notion | README · Business case write-up |
 
-**🔗 [View Repository →](#)** *(coming soon)*
+**🔗 [View Repository →](#)**https://github.com/Ernestoaguiga/Retail_Performance_Analysis
 
 ---
 
