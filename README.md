@@ -14,8 +14,10 @@
 ---
 
 <div align="center">
-
-### `< Hello World />` · `< Hola a todos />`
+  <!--  You can customize the typing text in the "lines=" section of the URL below -->
+  <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Business+Intelligence;Turning+Data+into+Actionable+Insights;Data+that+speak;Visuals+that+sell+Business+that+grows" alt="Typing SVG" />
+</div>
 
 **EN** · Data Analyst with a background in Marketing and Graphic Design — I don't just read data, I translate it into business decisions and visual stories that anyone can understand.
 
@@ -27,17 +29,15 @@
 
 ## 🧠 About Me · Sobre mí
 
-```python
-analyst = {
-    "name"       : "Hugo Ernesto Aguilar Gallardo",
-    "role"       : "Data Analyst | Marketing & Business Intelligence",
-    "location"   : "Ciudad de México 🇲🇽",
-    "background" : ["Marketing", "Retail Administration", "Graphic Design"],
-    "learning"   : ["DataCamp DA Associate", "16-Week Data Analyst Bootcamp"],
-    "focus"      : "Turning complex data into clear, actionable business insights",
-    "superpower" : "Bridging the gap between raw data and visual storytelling"
-}
-```
+| &nbsp; | Resumen del Perfil |
+| :---: | :--- |
+| <img src="https://img.icons8.com/?size=100&id=12586&format=png&color=737373" width="25" /> | **Name** • Hugo Ernesto Aguilar Gallardo |
+| <img src="https://img.icons8.com/?size=100&id=82769&format=png&color=737373" width="25" /> | **Role** • Data Analyst | Marketing & Business Intelligence |
+| <img src="https://img.icons8.com/?size=100&id=3723&format=png&color=737373" width="25" /> | **Location** • Ciudad de México, México |
+| <img src="https://img.icons8.com/?size=100&id=82766&format=png&color=737373" width="25" /> | **Background** • Marketing & Retail Administration, Graphic Design |
+| <img src="https://img.icons8.com/?size=100&id=24716&format=png&color=737373" width="25" /> | **Learning** • DataCamp DA Associate, 16-Week Data Analyst Bootcamp |
+| <img src="https://img.icons8.com/?size=100&id=9221&format=png&color=737373" width="25" /> | **Core Focus** • Turning complex data into clear, actionable business insights. |
+| <img src="https://img.icons8.com/?size=100&id=83226&format=png&color=737373" width="25" /> | **My Superpower** • Bridging the gap between raw data and visual storytelling. |
 
 > *"The goal is to turn data into information, and information into insight."* — Carly Fiorina
 
